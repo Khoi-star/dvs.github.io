@@ -1,0 +1,39 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE plist PUBLIC "-//Apple//DTD PLIST 1.0//EN" "http://www.apple.com/DTDs/PropertyList-1.0.dtd">
+<plist version="1.0">
+<dict>
+  <key>PayloadDisplayName</key>
+  <string>Touch Sensitivity Boost</string>
+  <key>PayloadIdentifier</key>
+  <string>com.dvs.accessibility.touchboost</string>
+  <key>PayloadRemovalDisallowed</key>
+  <false/>
+  <key>PayloadType</key>
+  <string>Configuration</string>
+  <key>PayloadUUID</key>
+  <string>35d4855b-ec9b-4a34-90ee-5216d3f4ae1b</string>
+  <key>PayloadVersion</key>
+  <integer>1</integer>
+  <key>PayloadContent</key>
+  <array>
+    <dict>
+      <key>PayloadType</key>
+      <string>com.apple.Accessibility</string>
+      <key>PayloadVersion</key>
+      <integer>1</integer>
+      <key>PayloadIdentifier</key>
+      <string>com.dvs.touchprofile</string>
+      <key>PayloadUUID</key>
+      <string>ed1fe4d8-24eb-4d5f-a6cd-558ef0b082c0</string>
+      <key>PayloadDisplayName</key>
+      <string>Touch Boost</string>
+      <key>TouchAccommodationsEnabled</key>
+      <true/>
+      <key>HoldDuration</key>
+      <real>0.0001</real>
+      <key>IgnoreRepeatEnabled</key>
+      <false/>
+    </dict>
+  </array>
+</dict>
+</plist>
